@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Barra lateral -->
+        <div class="sidebar">
+            <img src="foto.png" alt="Foto de perfil" class="profile-pic">
+            <h2>Marvin William Calel Otzoy</h2>
+            <p>Estudiante de la UMG</p>
+            <hr>
+            <h3>Contacto</h3>
+            <p>📧 calelmarvin23@gmail.com</p>
+            <p>📞 +502 4994-9680</p>
+            <p>📍 Chimaltenango, Guatemala</p>
+            <hr>
+            <h3>Habilidades</h3>
+            <ul>
+                <li>Desarrollo Web</li>
+                <li>Uso de software (consolas) y hardware para el control de red</li>
+                <li></li>
+                <li>Edición de video</li>
+                <li>Análisis y evaluación para el cableado estructurado de redes</li>
+            </ul>
+        </div>
+
+        <!-- Sección de contenido -->
+        <div class="content">
+            <h1>Sobre Mí</h1>
+            <p>Me gustan los temas de tecnología, intento explorar nuevos software, hardware y computación, me intereza aprender y profundizar en herramientas tecnológicas, actualmente trabajo en el área de gestión de redes y centro de datos. </p>
+            
+            <h1>Experiencia</h1>
+            <div class="job">
+                <p>- Digitador de datos-Empresa Inspiración Impresos (enero 2020 a septiembre 2021)</p>
+                <p><strong>2025 - Actualidad</strong></p>
+                <p>- Técnico en el área de gestión de redes y centro de datos-Corte de Constitucionalidad</p>
+            </div>
+            <h1>Proyectos</h1>
+            <div class="job">
+                <p>- Implementación de cableado estructurado para 80 puntos de red en la Cecretaría General-CC (2024)</p>
+                <p>- Implementación de telefonía PoE para la CC</p>
+            </div>
+
+            <h1>Educación</h1>
+            <p><strong>Ingeniería en Sistemas por la Universidad Mariano Gálvez de Guatemala</p>
+
+            <!-- Sección de Contacto -->
+            <h1>Contacto</h1>
+            <form id="contactForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name">
+                <small class="error" id="nameError"></small>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email">
+                <small class="error" id="emailError"></small>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message"></textarea>
+                <small class="error" id="messageError"></small>
+
+                <button type="submit">Enviar</button>
+                <p id="successMessage" class="hidden">✅ ¡Tu mensaje ha sido enviado con éxito!</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Enlace al script de JavaScript -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
